@@ -1,6 +1,9 @@
 import os
 os.system('clear')
 
+sys.ps1 = '\033[01;32m '
+print(sys.ps1)
+
 print('''
 
  ######     #    ######  #    # 
